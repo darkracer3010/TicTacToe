@@ -1,6 +1,8 @@
 import time
 import numpy as np
 import sys
+import colorama
+from colorama import Fore
 from simple_colors import *
 def checkrow(mat,size):
     nump=np.array(mat)
@@ -189,6 +191,7 @@ while(k<=size*size):
                     print('\033[1m'+"Dont Repeat it again"+'\033[1m')
                 if(iq==2):
                     print("Your Fault player-1 is the winner")
+                    sys.exit()
     _sok_=0
     yo=time.time()
     zk=checkrow(mat,size)
