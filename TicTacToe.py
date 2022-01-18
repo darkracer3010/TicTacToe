@@ -1,8 +1,6 @@
 import time
 import numpy as np
 import sys
-import colorama
-from colorama import Fore
 from simple_colors import *
 def checkrow(mat,size):
     nump=np.array(mat)
